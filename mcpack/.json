@@ -1,0 +1,46 @@
+{
+  "namespace": "ui",
+
+  "auxiliary_2_button@ui.auxiliary_2_text_panel": {
+    "size": [ 40, 25 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$pressed_button_name": "$button_content"
+  },
+
+  "button_label_text": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 4,
+    "text": "$button_text",
+    "font_type": "smooth",
+    "offset": [ 0, 0 ],
+    "font_scale_factor": 0.5,
+    "anchor_from": "center",
+    "anchor_to": "center"
+  },
+
+  "auxiliary_2_text_panel@common.button": {
+    "controls": [
+      {
+        "button_label_text@ui.button_label_text": {
+        }
+      },
+      {
+        "default@common.close_button_panel": {
+          "$close_button_texture": "textures/3"
+        }
+      },
+      {
+        "hover@common.close_button_panel": {
+          "$close_button_texture": "textures/4"
+        }
+      },
+      {
+        "pressed@common.close_button_panel": {
+          "$close_button_texture": "textures/4"
+        }
+      }
+    ]
+  }
+}

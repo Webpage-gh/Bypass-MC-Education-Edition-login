@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "教育版绕登录UI",
+        "name": "教育版绕登录UI",
+        "uuid": "11100a22-bbbb-aa99-9901-00002908861e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "resourcePack.vanilla.description",
+            "type": "resources",
+            "uuid": "11100a22-bbbb-aa99-990f-a3c6f169a9ab",
+            "version": [0, 0, 1]
+        }
+    ]
+}
