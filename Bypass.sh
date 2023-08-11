@@ -43,5 +43,7 @@ echo "正在启用资源包"
 mkdir -p "${jsonfile%/*}"
 jq -s '.[0] + .[1] | unique_by(.pack_id)' "$DIR/global_resource_packs.json" "$jsonfile" > "$jsonfile.swap"
 mv -f "$jsonfile.swap" "$jsonfile"
+chown "$UID:$UID" "$jsonfile"
+chmod 600 "$jsonfile"
 
 echo "完成"
