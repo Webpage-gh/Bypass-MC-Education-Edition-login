@@ -7,7 +7,7 @@ Use Termux to execute this script to install the resource pack and bypass the lo
 
 1. Obtain root access for your device, refer to [Installing Magisk](https://topjohnwu.github.io/Magisk/install.html).
 2. Download and install [Termux](https://github.com/termux/termux-app/releases/latest) and MC Education Edition.
-3. Change the package source (for users in China) and install the git command:
+3. Change the package source (for users in China) and install the dependencies:
    
    ```bash
    termux-change-repo

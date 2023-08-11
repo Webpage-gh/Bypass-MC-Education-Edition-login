@@ -5,17 +5,17 @@
 ### 使用方法
 1. 对您的设备获取 Root 权限，参考 [安装 Magisk](https://topjohnwu.github.io/Magisk/install.html)
 2. 下载并安装 [Termux](https://github.com/termux/termux-app/releases/latest) 和 MC 教育版
-3. 换源（针对国内用户），安装 git 命令
-```bash
-termux-change-repo
-```
-```bash
-apt update -y && apt install git -y
-```
+3. 换源（针对国内用户），安装依赖
+   ```bash
+   termux-change-repo
+   ```
+   ```bash
+   apt update -y && apt install git tsu jq -y
+   ```
 4. 执行以下命令
-```bash
-git clone https://github.com/Webpage-gh/Bypass-MC-Education-Edition-login.git && sudo sh Bypass-MC-Education-Edition-login/Bypass.sh; rm -rf Bypass-MC-Education-Edition-login
-```
+   ```bash
+   git clone https://github.com/Webpage-gh/Bypass-MC-Education-Edition-login.git && sudo sh Bypass-MC-Education-Edition-login/Bypass.sh; rm -rf Bypass-MC-Education-Edition-login
+   ```
 
 ### 手动安装
 首先，我们推荐您采用 Termux 来安装它。如果因为一些原因不能这么做，那么我们可以：
